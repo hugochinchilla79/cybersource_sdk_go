@@ -6,8 +6,8 @@ type ReversalRequest struct {
 }
 
 type ReversalInformation struct {
-	AmountDetails *ReversalAmountDetails `json:"amountDetails,omitempty"`
-	Reason        string                 `json:"reason,omitempty"`
+	AmountDetails *AmountDetails `json:"amountDetails,omitempty"`
+	Reason        string         `json:"reason,omitempty"`
 }
 
 type ReversalAmountDetails struct {
