@@ -9,4 +9,7 @@ type Card struct {
 	ExpirationMonth string `json:"expirationMonth,omitempty"`
 	ExpirationYear  string `json:"expirationYear,omitempty"`
 	SecurityCode    string `json:"securityCode,omitempty"`
+	// Type is the card type code. Required for Cartes Bancaires and UPI.
+	// Common values: 001=Visa, 002=Mastercard, 003=Amex, 004=Discover
+	Type string `json:"type,omitempty"`
 }
