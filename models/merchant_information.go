@@ -3,7 +3,7 @@ package models
 type MerchantInformation struct {
 	MerchantDescriptor  *MerchantDescriptor `json:"merchantDescriptor,omitempty"`
 	SalesOrganizationID string              `json:"salesOrganizationId,omitempty"`
-	CategoryCode        *int                `json:"categoryCode,omitempty"`
+	CategoryCode        string              `json:"categoryCode,omitempty"`
 }
 
 type MerchantDescriptor struct {
