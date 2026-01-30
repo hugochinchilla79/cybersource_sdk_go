@@ -61,6 +61,8 @@ type EnrollmentAuthenticationInfoResponse struct {
 	ECIRaw string `json:"eciRaw,omitempty"`
 	// EcommerceIndicator - Commerce indicator for authorization (e.g., "vbv", "spa")
 	EcommerceIndicator string `json:"ecommerceIndicator,omitempty"`
+	// Indicator - Commerce indicator returned specifically by ValidateAuthenticationResults (e.g., "vbv", "spa")
+	Indicator string `json:"indicator,omitempty"`
 	// XID - Transaction identifier for 3DS 1.0
 	XID string `json:"xid,omitempty"`
 
