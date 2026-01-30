@@ -59,8 +59,8 @@ type EnrollmentAuthenticationInfoResponse struct {
 	ECI string `json:"eci,omitempty"`
 	// ECIRaw - Raw ECI value from processor
 	ECIRaw string `json:"eciRaw,omitempty"`
-	// EcommerceIndicator - Commerce indicator for authorization (e.g., "vbv", "spa")
-	EcommerceIndicator string `json:"ecommerceIndicator,omitempty"`
+	// CommerceIndicator - Commerce indicator for authorization (e.g., "vbv", "spa")
+	CommerceIndicator string `json:"commerceIndicator,omitempty"`
 	// XID - Transaction identifier for 3DS 1.0
 	XID string `json:"xid,omitempty"`
 
